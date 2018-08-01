@@ -1,0 +1,62 @@
+body {
+	background-color: #cefeff;
+}
+
+.hr {
+	margin: 2rem 0 2rem 0;
+	height: 1px;
+	background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+	border: 0;
+}
+
+.navbar {
+	background-color: #cefeff;
+	border-bottom: 1px solid #cacdd1;
+}
+
+nav ul li {
+	font-size: 18px;
+	padding: 3px 10px 3px 10px;
+}
+
+nav ul li:hover {
+	transition: .7s;
+	background-color: #ced8e8;
+	border-radius: 6px 6px 6px 6px;
+	text-decoration: underline;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#footer	{
+	background-color: #9ebebf;
+	border-top: 1.5px solid #cacdd1;
+	margin-top: 15px;
+}
